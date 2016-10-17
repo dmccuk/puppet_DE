@@ -1,0 +1,14 @@
+{
+  "name": "DennisMcCarthy-setup_lvm",
+  "version": "0.1.0",
+  "author": "DennisMcCarthy",
+  "summary": "control lv creation",
+  "license": "Apache 2.0",
+  "source": "",
+  "project_page": null,
+  "issues_url": null,
+  "dependencies": [
+    {"version_requirement":">= 1.0.0","name":"puppetlabs-stdlib"}
+  ]
+}
+

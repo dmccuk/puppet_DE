@@ -1,0 +1,23 @@
+---
+classes:
+ - role_basic
+# - role_vm4
+# - role_webserver
+#  - role_web_phpsysinfo
+
+#grub::redhat6::grub_password:
+# - '$1$0p3Ng$Zj/tdn/UOaVQLpKAaNBzk/'
+
+ntp::servers:
+ - 0.centos.pool.ntp.org iburst
+ - 1.centos.pool.ntp.org iburst
+# - 2.centos.pool.ntp.org iburst
+
+ntp::restrict:
+ - 127.0.0.1
+
+ntp::broadcastclient: true
+
+httpd::index_content:
+  - '<H1> WELCOME - INTERNAL HTTPD SERVER</H1>'
+

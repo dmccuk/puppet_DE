@@ -1,0 +1,7 @@
+---
+classes:
+ - role_basic
+ - phpsysinfo
+
+#tlg_resolv_conf::nameserver:
+# - 8.8.8.8

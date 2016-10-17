@@ -1,0 +1,11 @@
+#Execute this file to apply back the manifest locally
+puppet apply --modulepath=/opt/vm4/modules/build -e "include fstab"
+puppet apply --modulepath=/opt/vm4/modules/build -e "include groups"
+puppet apply --modulepath=/opt/vm4/modules/build -e "include hosts"
+puppet apply --modulepath=/opt/vm4/modules/build -e "include httpd"
+puppet apply --modulepath=/opt/vm4/modules/build -e "include ksh"
+puppet apply --modulepath=/opt/vm4/modules/build -e "include limits"
+puppet apply --modulepath=/opt/vm4/modules/build -e "include resolv_conf"
+puppet apply --modulepath=/opt/vm4/modules/build -e "include sshd_config"
+puppet apply --modulepath=/opt/vm4/modules/build -e "include sysctl"
+puppet apply --modulepath=/opt/vm4/modules/build -e "include users"
